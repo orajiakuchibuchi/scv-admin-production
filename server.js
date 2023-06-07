@@ -1,7 +1,7 @@
 var express = require('express'), path = require('path'), fs = require('fs');
 var compression = require('compression');
 var app = express();
-var staticRoot = __dirname + '/admin/';
+var staticRoot = __dirname + '/admin';
   // + express.static('dist/admin');
 var port = process.env.PORT || 5000;
 
